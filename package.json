@@ -1,6 +1,5 @@
 {
   "name": "refokuss",
-  "homepage": "https://Mukul64803.github.io/Refokuss/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,8 +8,7 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+
   },
   "dependencies": {
     "framer-motion": "^11.3.17",
